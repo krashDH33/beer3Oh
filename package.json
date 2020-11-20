@@ -1,0 +1,28 @@
+{
+  "name": "beer3oh",
+  "version": "1.0.0",
+  "description": "Website for beer3Oh!",
+  "main": "over21.html",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "lite-server": "^2.5.4",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krashDH33/beer3Oh.git"
+  },
+  "author": "Sean Hammarstrom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krashDH33/beer3Oh/issues"
+  },
+  "homepage": "https://github.com/krashDH33/beer3Oh#readme"
+}
