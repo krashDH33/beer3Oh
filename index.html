@@ -13,8 +13,7 @@
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&display=swap">
-  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&display=swap" />
   <link rel="stylesheet" href="css/cssb3oh.css" />
 
   <title>Over 21 Only</title>
@@ -43,7 +42,7 @@
 
     .card-title {
       color: rgb(201, 139, 6, 0.8);
-      font-family: 'Big Shoulders Stencil Display', 'Courier New';      
+      font-family: 'Big Shoulders Stencil Display', 'Courier New';
       letter-spacing: 7px;
 
     }
@@ -91,6 +90,18 @@
       </div>
     </div>
   </div>
+
+  <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
+
 </body>
 
 </html>
