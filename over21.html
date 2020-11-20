@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+  <!-- Additional CSS must be placed after Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&display=swap">
+  
+  <link rel="stylesheet" href="css/cssb3oh.css" />
+
+  <title>Over 21 Only</title>
+  <style>
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+      /* The image used */
+      background-image: url(img/handle.jpg);
+
+      /* Full height */
+      height: 100%;
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .card {
+      background-color: rgb(0, 0, 0, 0.6);
+      border: rgb(75, 37, 37, 0.5) solid 15px;
+      border-radius: 50px;
+    }
+
+    .card-title {
+      color: rgb(201, 139, 6, 0.8);
+      font-family: 'Big Shoulders Stencil Display', 'Courier New';      
+      letter-spacing: 7px;
+
+    }
+
+    .card-text {
+      color: rgb(255, 248, 220, 0.7);
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      border: rgba(63, 31, 31, 0.8) solid 5px;
+      border-radius: 10px;
+      margin: 10px;
+    }
+
+    #proceed {
+      background-color: rgb(85, 107, 47, 0.5);
+      color: rgb(201, 139, 6, 0.8);
+      font-weight: bold;
+    }
+
+    #deny {
+      background-color: rgba(88, 88, 88, 0.8);
+      color: rgb(201, 139, 6, 0.8);
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container h-100">
+    <div class="row h-100 justify-content-center align-items-center">
+      <div class="col-sm-6">
+        <div class="card text-center">
+          <div class="card-body">
+            <h1 class="card-title">Must be 21 to Enter</h1>
+            <h5 class="card-text">By clicking yes, you are confirming you are over 21</h5>
+            <p>
+              <a href="#" class="btn" id="proceed">Let's Do It!</a>
+              <a href="http://www.google.com" class="btn" id="deny">Not Yet...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
