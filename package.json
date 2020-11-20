@@ -2,7 +2,7 @@
   "name": "beer3oh",
   "version": "1.0.0",
   "description": "Website for beer3Oh!",
-  "main": "over21.html",
+  "main": "index.html",
   "dependencies": {
     "bootstrap": "^4.5.0",
     "lite-server": "^2.5.4",
