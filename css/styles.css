@@ -1,0 +1,94 @@
+.jumbotron {
+    margin: 0;
+    padding: 75px 75px 50px;
+    background-image: url(/img/jumbotron1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; 
+}
+
+.header, h1 {
+    font-family: 'Big Shoulders Stencil Display', 'Courier New';
+    letter-spacing: 5px;
+    color: rgb(201, 139, 6, 1.0);
+    font-size: 4em;
+}
+
+.navbar {
+    background-image: linear-gradient(rgb(161, 159, 159), black); 
+}
+
+.navbar ul a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(0, 0, 0, 0.2);
+    border-radius: 10px
+    
+}
+
+#hopImg {
+    text-align: center;
+    color: white;
+}
+
+#beerNavbar {
+    text-align: center;
+    letter-spacing: 1px;
+    color: grey;
+}
+
+#hopsTab {
+    background-image: url(/img/Hops2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#maltTab {
+    background-image: url(/img/malt.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#yeastTab {
+    background-image: url(/img/yeast.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#palateTab {
+    background-image: url(/img/port_text.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#abvTab {
+    background-image: url(/img/abv.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#ibuTab {
+    background-image: url(/img/bitter.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.site-footer {
+    background-image: linear-gradient(to bottom,#020202, rgb(161, 159, 159));
+    padding: 20px 0;
+    color: white;
+}
+
+
+
+
