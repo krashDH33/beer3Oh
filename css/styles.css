@@ -1,3 +1,13 @@
+#comeIn {  
+    margin: 0;
+    background-image: url(/img/comeIn.jpg);  
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-left: 0px;
+    color: white;
+}
+
 .jumbotron {
     margin: 0;
     padding: 75px 75px 50px;
