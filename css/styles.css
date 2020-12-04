@@ -1,11 +1,12 @@
+
 #comeIn {  
     margin: 0;
     background-image: url(/img/comeIn.jpg);  
     background-position: top;
     background-repeat: no-repeat;
-    background-size: cover; 
-    margin-left: 0px;
+    background-size: cover;         
     color: white;
+    
 }
 
 .jumbotron {
@@ -32,6 +33,22 @@
 .navbar ul a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(0, 0, 0, 0.2);
     border-radius: 10px
+    
+}
+
+.card a:hover, .card p.d-sm-none:hover {
+    background-color: rgba(63, 60, 60, 0.8);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#ourMission {
+    text-align: center;
+    color: black;
+    border: solid black 10px;
+    border-radius: 10px;
+    margin: 15px 15px;
+    background-color: rgb(158, 85, 85, 0.2);
     
 }
 
@@ -91,6 +108,37 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
+}
+
+#tableCont {
+    background-image: url(/img/kegs.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; 
+}
+
+#cardIndex3 {
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 45px;
+}
+
+img[src="img/pilsner.png"],
+img[src="img/paleale.png"],
+img[src="img/brownale.png"],
+img[src="img/ipahazy.png"],
+img[src="img/wheat.png"],
+img[src="img/belgian.png"],
+img[src="img/porter.png"],
+img[src="img/stout.png"],
+img[src="img/sour.png"] {
+    border-radius: 20px;
+    padding: 5px;
+    height: auto;
+    width: 75%;
+    max-width: 50vw;
+    opacity: 0.9;
 }
 
 .site-footer {
